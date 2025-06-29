@@ -18,7 +18,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Yash Semlani",
   description: "Yash Semlani's personal website",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/site-icon.ico',
+  }
 }
 
 export default function RootLayout({
