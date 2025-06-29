@@ -1,28 +1,6 @@
 # Personal Portfolio Website
 
-A modern, minimalist portfolio website built with Next.js, featuring a dynamic content management system and elegant dark theme design.
-
-## 🌟 Features
-
-- **Dynamic Content System**: Automatically organizes work and thoughts based on folder structure
-- **Markdown Support**: Write content in Markdown with frontmatter for metadata
-- **External Link Support**: Link to external projects and resources
-- **Recent Work Display**: Automatically shows the 3 most recent items on the homepage
-- **Studio Page**: Organized view of all content by category
-- **Responsive Design**: Works beautifully on desktop and mobile devices
-- **Dark Theme**: Custom-designed dark theme with subtle animations
-- **Fast Performance**: Built with Next.js 15 for optimal performance
-- **TypeScript**: Fully typed for better development experience
-
-## 🚀 Tech Stack
-
-- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) with [Radix UI](https://www.radix-ui.com/)
-- **Content**: Markdown with [gray-matter](https://github.com/jonschlinkert/gray-matter) and [remark](https://remark.js.org/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Theme**: [next-themes](https://github.com/pacocoursey/next-themes)
+A modern, minimalist portfolio website built with Next.js to showcase my work and thoughts.
 
 ## 📦 Installation
 
@@ -146,26 +124,6 @@ All UI components are built with shadcn/ui and can be customized in the `compone
 - `npm run start` - Start production server  
 - `npm run lint` - Run ESLint
 
-## 📱 Features Overview
-
-### Homepage
-- Hero section with personal introduction
-- Current interests and work
-- Recent work display (auto-generated from content)
-- Social media links
-
-### Studio Page
-- Organized view of all content by category
-- Automatic categorization based on folder structure
-- Support for both internal articles and external links
-- Date-sorted content within each category
-
-### Dynamic Content Pages
-- Clean, readable article pages
-- Markdown rendering with proper styling
-- Responsive design
-- Navigation between articles
-
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
@@ -184,9 +142,6 @@ The project can be deployed to any platform that supports Next.js:
 
 No environment variables are required for basic functionality. Add them as needed for additional features.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
