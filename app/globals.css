@@ -68,7 +68,7 @@
   }
 }
 
-/* Static background pattern with cool blue gradients */
+/* Static background pattern with cool blue gradients - adapts to theme */
 .bg-pattern {
   background-image: 
     radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.04) 0%, transparent 50%),
@@ -78,7 +78,14 @@
   background-position: 0% 0%, 100% 100%, 50% 50%;
 }
 
-/* Static geometric grid overlay */
+.dark .bg-pattern {
+  background-image: 
+    radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(147, 197, 253, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(96, 165, 250, 0.04) 0%, transparent 50%);
+}
+
+/* Static geometric grid overlay - adapts to theme */
 .bg-grid {
   background-image: 
     linear-gradient(rgba(59, 130, 246, 0.06) 1px, transparent 1px),
@@ -87,7 +94,13 @@
   background-position: 0 0, 0 0;
 }
 
-/* Static gradient accent */
+.dark .bg-grid {
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.12) 1px, transparent 1px);
+}
+
+/* Static gradient accent - adapts to theme */
 .gradient-accent {
   background: linear-gradient(
     135deg,
@@ -96,6 +109,17 @@
     transparent 50%,
     transparent 75%,
     rgba(96, 165, 250, 0.03) 100%
+  );
+}
+
+.dark .gradient-accent {
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.12) 0%,
+    rgba(147, 197, 253, 0.08) 25%,
+    transparent 50%,
+    transparent 75%,
+    rgba(96, 165, 250, 0.06) 100%
   );
 }
 
