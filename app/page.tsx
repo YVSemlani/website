@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Github, Twitter, Mail, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle, ThemeSwitch } from "@/components/theme-toggle"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { getRecentItems } from "@/lib/content"
 
 export default async function HomePage() {
@@ -21,10 +21,7 @@ export default async function HomePage() {
             <Link href="/studio" className="text-muted-foreground hover:text-foreground transition-colors">
               Studio
             </Link>
-            <div className="flex items-center gap-4">
-              <ThemeSwitch />
-              <ThemeToggle />
-            </div>
+            <ThemeToggle />
           </div>
         </nav>
 
