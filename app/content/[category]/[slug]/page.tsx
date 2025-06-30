@@ -31,7 +31,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
         <div className="gradient-accent absolute inset-0 -z-10"></div>
 
         {/* Navigation */}
-        <Navigation currentPage="studio" />
+        <Navigation currentPage="content" />
 
         {/* Back Button */}
         <Button variant="ghost" size="sm" className="mb-8 -ml-2" asChild>
@@ -56,7 +56,7 @@ export default async function ContentPage({ params }: ContentPageProps) {
             </time>
           </header>
 
-          <div className="prose prose-invert prose-zinc max-w-none dark:prose-invert">
+          <div className="prose prose-zinc max-w-none dark:prose-invert">
             {item.htmlContent ? (
               <div
                 className="text-muted-foreground leading-relaxed font-body [&>*]:mb-6 [&>h1]:text-3xl [&>h1]:font-semibold [&>h1]:text-foreground [&>h1]:mt-12 [&>h1]:mb-6 [&>h1]:font-heading [&>h2]:text-2xl [&>h2]:font-semibold [&>h2]:text-foreground [&>h2]:mt-12 [&>h2]:mb-6 [&>h2]:font-heading [&>h3]:text-xl [&>h3]:font-semibold [&>h3]:text-foreground [&>h3]:mt-8 [&>h3]:mb-4 [&>h3]:font-heading [&>p]:leading-relaxed [&>ul]:list-disc [&>ul]:pl-6 [&>ol]:list-decimal [&>ol]:pl-6 [&>li]:mb-2 [&>blockquote]:border-l-4 [&>blockquote]:border-border [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:text-muted-foreground [&>code]:bg-muted [&>code]:px-2 [&>code]:py-1 [&>code]:rounded [&>code]:text-sm [&>pre]:bg-muted [&>pre]:p-4 [&>pre]:rounded [&>pre]:overflow-x-auto [&>pre]:text-sm"
