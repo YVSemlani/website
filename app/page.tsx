@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Github, Twitter, Mail, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
+import { Navigation } from "@/components/navigation"
 import { getRecentItems } from "@/lib/content"
 
 export default async function HomePage() {
@@ -13,17 +13,7 @@ export default async function HomePage() {
         <div className="gradient-accent absolute inset-0 -z-10"></div>
 
         {/* Navigation */}
-        <nav className="flex items-center justify-between mb-12">
-          <Link href="/" className="text-lg font-medium font-heading">
-            Main
-          </Link>
-          <div className="flex items-center gap-8">
-            <Link href="/studio" className="text-muted-foreground hover:text-foreground transition-colors">
-              Studio
-            </Link>
-            <ThemeToggle />
-          </div>
-        </nav>
+        <Navigation currentPage="main" />
 
         {/* Hero Section */}
         <section className="mb-12">
